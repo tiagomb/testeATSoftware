@@ -1,13 +1,16 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "frameworks": [
+    { "id": "1", "timestamp": "2023-01-01", "angular": 1, "react": 2, "vue":  3 },
+    {"id": "2",  "timestamp": "2023-02-01", "angular": 1, "react": 2, "vue": 3},
+    {"id": "3",  "timestamp": "2023-03-01", "angular": 2, "react": 3, "vue": 4},
+    {"id": "4",  "timestamp": "2023-04-01", "angular": 2, "react": 3, "vue": 4},
+    {"id": "5",  "timestamp": "2023-05-01", "angular": 2, "react": 3, "vue": 4},
+    {"id": "6",  "timestamp": "2023-06-01", "angular": 3, "react": 4, "vue": 5},
+    {"id": "7",  "timestamp": "2023-07-01", "angular": 3, "react": 4, "vue": 5},
+    {"id": "8",  "timestamp": "2023-08-01", "angular": 4, "react": 5, "vue": 6},
+    {"id": "9",  "timestamp": "2023-09-01", "angular": 5, "react": 6, "vue": 7},
+    {"id": "10",  "timestamp": "2023-10-01", "angular": 5, "react": 6, "vue": 7},
+    {"id": "11",  "timestamp": "2023-11-01", "angular": 6, "react": 7, "vue": 8},
+    {"id": "12",  "timestamp": "2023-12-01", "angular": 7, "react": 8, "vue": 9}
+  ]
 }
