@@ -1,4 +1,7 @@
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
+import PersistentDrawerLeft from './components/Header'
+import Dashboard from './components/Dashboard'
+import Form from './components/Form'
 
 function App() {
   return (
@@ -9,17 +12,10 @@ function App() {
         alignItems: 'center',
         width: '100%',
         minHeight: '100vh',
+        flexDirection: 'column'
       }}
     >
-      <Typography
-        variant='h1'
-        fontWeight="bold"
-        sx={({ palette }) => ({
-          color: palette.primary.main
-        })}
-      >
-        AT Software Solutions
-      </Typography>
+      <PersistentDrawerLeft form = {<Form/>} chart={<Dashboard/>}/>
     </Box>
   )
 }
